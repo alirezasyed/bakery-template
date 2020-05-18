@@ -2,6 +2,7 @@
 #header{
 background-image: url("img/header.png");
 background-size: cover;
+background-position: center;
 
 }
 #navbar {
@@ -17,5 +18,50 @@ padding-left: 64px;
 padding-right: 64px;
 padding-top: 8px;
 padding-bottom: 8px;
+
+}
+#logoB {
+
+}
+
+.text-color-brown{
+  color: #aa8669;
+}
+
+#img-chef { border-radius: 100px;
+width: 96px;
+
+}
+
+.text-hr{
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  width: 120px;
+  text-align:center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+}
+
+.quote-chef {
+color: #aa8669;
+}
+.quote-chef::before {
+  color: gray;
+  font-size: 24px;
+  content:'\02bb\02bb';
+  display: block;
+  text-align: left;
+}
+.quote-chef::after {
+  content:'\02bc\02bc';
+  color: gray;
+  font-size: 24px;
+  display: block;
+  text-align: right;
+
+}
+
+.img-taste-so-good{
 
 }
