@@ -19,9 +19,16 @@ padding-top: 8px;
 padding-bottom: 8px;
 
 }
-#logoB {
 
+#logoB {
+  position: absolute;
+  top: 93%;
 }
+
+.
+/* #header .text-white w-100 {
+  background-color: black;
+} */
 
 .text-color-brown{
   color: #aa8669;
