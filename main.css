@@ -1,7 +1,45 @@
-#navbar {
-  background-color: #56534c;
-  opacity: 0.8;
+/* --------------------------------------------------------------- */
+/*
+/* HTML
+/*
+/* --------------------------------------------------------------- */
+
+* {
+	box-sizing: border-box;
 }
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+}
+
+body {
+	text-align: center;
+}
+
+#main {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	min-height: 100%;
+	margin: 0 auto;
+	color: #171717;
+	background-color: #fff;
+}
+
+
+/* --------------------------------------------------------------- */
+/*
+/* HEADER
+/*
+/* --------------------------------------------------------------- */
+
 
 #header {
   background-image: url("img/header.png");
@@ -9,12 +47,18 @@
   background-position: center;
 }
 
-#logoB {
+#header #navbar {
+  background-color: #56534c;
+  opacity: 0.8;
+}
+
+
+#header #logoB {
   position: absolute;
   top: 93%;
 }
 
-#radius-bg {
+#header #radius-bg {
   width: 50
   background-color: #825b58;
   border-radius: 50%;
@@ -26,7 +70,11 @@
   left: 25%;
 }
 
-#buttonOurMenu {
+#header #radius-bg .text-white .row {
+  z-index: 20;
+}
+
+#header #radius-bg #buttonOurMenu {
   background-color: #56534c;
   border-radius: 0;
   border: 2px dotted white;
@@ -36,40 +84,151 @@
   padding-bottom: 8px;
 }
 
+
+/* --------------------------------------------------------------- */
+/*
+/* Section_2/Section_3
+/*
+/* --------------------------------------------------------------- */
+
+#section2 .text-hr {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  width: 120px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+}
+
 #section2 {
   background: url("img/wallpaper.jpg");
   background-size: cover;
 }
 
-#section4 .pap {
+#section2 #img-chef {
+  border-radius: 100px;
+  width: 96px;
+}
+
+#section2 .quote-chef {
+  color: #aa8669;
+}
+
+#section2 .quote-chef::before {
+  color: gray;
+  font-size: 24px;
+  content: "\02bb\02bb";
+  display: block;
+  text-align: left;
+}
+#section2 .quote-chef::after {
+  content: "\02bc\02bc";
+  color: gray;
+  font-size: 24px;
+  display: block;
+  text-align: right;
+}
+
+/* --------------------------------------------------------------- */
+/*
+/* Section_3
+/*
+/* --------------------------------------------------------------- */
+
+#section3 {
+  background-image: url("img/ingredients.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#section_3 .text-color-brown {
+  color: #aa8669;
+}
+
+#section3-row {
+  background-color: white;
+}
+
+#section3 #coulis {
+  height: 80vh;
+  background-image: url("img/coulis.png");
+  background-size: cover;
+  background-position: center;
+}
+#section3 #tasty-pancakes {
+  height: 80vh;
+  background-image: url("img/moulin.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 15vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+#section3 #season {
+  margin-bottom: 10vh;
+}
+
+#section3 .block {
+  overflow: hidden;
+  width: 400px;
+  margin: 50px auto;
+  margin-top: 120px;
+}
+
+#section3 .animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+
+#section3 .animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0 10px;
+}
+
+#section3 .animation img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+/* --------------------------------------------------------------- */
+/*
+/* Section_4
+/*
+/* --------------------------------------------------------------- */
+
+
+
+#section4 .stacked {
   background-color: #f3f1e9;
-  /* padding: 330px 80px; */
   width: 504px;
   height: 442px;
   border: 2px solid #fff;
   outline: 1px dashed #000;
   outline-offset: -10px;
   position: absolute;
-  /* left: 41%; */
   bottom: -5%;
 }
 
-#section4 .inner-pap {
+#section4 .stacked_2 {
   background-color: #f3f1e9;
-  /* padding: 290px 60px; */
   width: 489px;
   height: 495px;
   border: 2px solid #fff;
   outline: 1px dashed #000;
   outline-offset: -10px;
-  /* margin-top: 20px; */
   position: absolute;
   bottom: -29px;
 }
 
-#section4 .last-pap {
+#section4 .stacked_3 {
   background-color: #f3f1e9;
-  /* padding: 250px 70px; */
   border: 2px solid #fff;
   outline: 1px dashed #000;
   outline-offset: -10px;
@@ -86,46 +245,25 @@
   top: 117px;
 }
 
-.text-white .row {
-  z-index: 20;
+#section4 {
+  background-image: url("img/oeuf.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.text-color-brown {
-  color: #aa8669;
-}
+/* --------------------------------------------------------------- */
+/*
+/* SECTION_5
+/*
+/* --------------------------------------------------------------- */
 
-#img-chef {
-  border-radius: 100px;
-  width: 96px;
-}
-
-.text-hr {
-  border-bottom: 1px solid gray;
-  border-top: 1px solid gray;
-  width: 120px;
-  text-align: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-size: 16px;
-}
-
-.quote-chef {
-  color: #aa8669;
-}
-.quote-chef::before {
-  color: gray;
-  font-size: 24px;
-  content: "\02bb\02bb";
+#section-5 .img-last {
+  width: 40%;
+  margin: 1px auto;
   display: block;
-  text-align: left;
+  opacity: 0.2;
 }
-.quote-chef::after {
-  content: "\02bc\02bc";
-  color: gray;
-  font-size: 24px;
-  display: block;
-  text-align: right;
-}
+
 
 .img-taste-so-good {
   width: 100%;
@@ -133,67 +271,6 @@
   object-fit: cover;
 }
 
-#section3 {
-  background-image: url("img/ingredients.png");
-  background-size: cover;
-  background-position: center;
-}
-#section3-row {
-  background-color: white;
-}
-#coulis {
-  height: 80vh;
-  background-image: url("img/coulis.png");
-  background-size: cover;
-  background-position: center;
-}
-#tasty-pancakes {
-  height: 80vh;
-  background-image: url("img/moulin.png");
-  background-size: cover;
-  background-position: center;
-  padding-top: 15vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
-}
-#season {
-  margin-bottom: 10vh;
-}
-
-/* slider */
-
-.block {
-  overflow: hidden;
-  width: 400px;
-  margin: 50px auto;
-  margin-top: 120px;
-}
-
-.animation {
-  width: auto;
-  height: 100px;
-  font-size: 0px;
-}
-
-.animation div {
-  display: inline-block;
-  width: auto;
-  float: none;
-  padding: 0 10px;
-}
-
-.animation img {
-  height: 120px;
-  width: 120px;
-  object-fit: cover;
-  border-radius: 100px;
-}
-
-#section4 {
-  background-image: url("img/oeuf.png");
-  background-size: cover;
-  background-position: center;
-}
 
 /* #parent {
 position: relative;
@@ -213,15 +290,12 @@ z-index: 11;
 z-index: 12;
 } */
 
-.img-last {
-  width: 40%;
-  margin: 1px auto;
-  display: block;
-  opacity: 0.2;
-}
+
 
 .photo1 {
   border-radius: 100px;
   width: 100px;
   height: 100px;
 }
+
+
