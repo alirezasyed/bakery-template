@@ -244,11 +244,11 @@ body {
   font-size: 19px;
   text-transform: uppercase;
   color: #56534c;
-  margin-top: 3px;
+  margin-top: 32px;
 }
 
-#section4 .stacked_3 p{
-  -ms-word-break: break-all;
+#section4 .stacked_3 p {
+  margin-bottom: 29px;
 }
 
 
@@ -256,13 +256,25 @@ body {
   font-weight: bold;
   font-size: 40px;
   color: #56534c;
+  margin-bottom: 40px;
 }
 
 #section4 .stacked_3 img {
-padding: 33px;
-padding-bottom: 0px;
-margin-top: -54px;
+  padding: 33px;
+  padding-bottom: 0px;
+  margin-top: -54px;
 }
+
+#section4 .stacked_3 .texts {
+  padding: 67px;
+}
+
+#section4 .stacked_3 .texts button {
+  padding: 15px 65px;
+  border: 1px solid #9e9c93;
+  color: #a47d5e;
+}
+
 
 #section4 {
   background-image: url("img/oeuf.png");
