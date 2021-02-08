@@ -202,6 +202,26 @@ body {
 /*
 /* --------------------------------------------------------------- */
 
+#section4 .breakfast-list {
+  transform: translate(220px, -25px);
+}
+
+#section4 .breakfast-list p:nth-of-type(even) {
+  color: #c2beba;
+}
+
+#section4 .breakfast-list p:nth-of-type(odd) {
+  color: #dfc691;
+}
+
+#section4 .breakfast-list p:nth-child(2) {
+  color: #c8a593;
+}
+
+#section4 .superposer-papier {
+  transform: translateX(262px);
+}
+
 #section4 .stacked {
   background-color: #f3f1e9;
   width: 504px;
@@ -225,8 +245,7 @@ body {
 }
 
 #section4 .stacked_3 {
-  background-color: #f3f1e9;
-  border: 2px solid #fff;
+  background: linear-gradient(45deg, transparent 22px, #f3f1e9 0) bottom left;
   outline: 1px dashed #000;
   outline-offset: -10px;
   position: absolute;
@@ -259,7 +278,7 @@ body {
   margin-bottom: 40px;
 }
 
-#section4 .stacked_3 img {
+#section4 .stacked_3 img[src="img/superpos-icon.png"] {
   padding: 33px;
   padding-bottom: 0px;
   margin-top: -54px;
@@ -269,12 +288,23 @@ body {
   padding: 67px;
 }
 
+#section4 .stacked_3 .texts p {
+  line-height: 1.5;
+}
+
+
 #section4 .stacked_3 .texts button {
   padding: 15px 65px;
   border: 1px solid #9e9c93;
   color: #a47d5e;
 }
 
+#section4 .stacked_3 img[src="img/bakery_feather.png"] {
+  position: absolute;
+  top: 73%;
+  left: 62%;
+  z-index: 10;
+}
 
 #section4 {
   background-image: url("img/oeuf.png");
