@@ -318,6 +318,21 @@ body {
 /*
 /* --------------------------------------------------------------- */
 
+#section5 {
+  background-image: url("img/last-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#section5 #blocImage h2 {
+  color: #56534c;
+}
+
+#section5 #blocImage p {
+  color: #a47d5e;
+}
+
+
 #section-5 .img-last {
   width: 40%;
   margin: 1px auto;
