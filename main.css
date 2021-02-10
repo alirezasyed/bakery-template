@@ -332,6 +332,18 @@ body {
   color: #a47d5e;
 }
 
+#section5 .container h4 {
+  color: #a47d5e;
+}
+
+#section5 .container p {
+  color: #56534c;
+}
+
+#section5 .container img:first-child {
+  outline: 10px solid #fff;
+  outline-offset: -25px;
+}
 
 #section-5 .img-last {
   width: 40%;
@@ -339,6 +351,53 @@ body {
   display: block;
   opacity: 0.2;
 }
+
+#section5 .container #sandwich img {
+  position: relative;
+  clip-path: polygon(0 3%, 100% 3%, 100% 100%, 0% 100%);
+}
+
+#section5 .container #sandwich .petit-boite {
+  position: absolute;
+  top: 73%;
+  z-index: 50;
+  width: 26%;
+  height: 19%;
+  background-color: #ffffff;
+  border: 1px dotted #dfc691;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section5 .container #sandwich .petit-boite h2 {
+   color: #dfc691;
+}
+
+#section5 .container .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#section5 .container .blocTexte img:first-child {
+  margin: -30px 70px 15px 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img-taste-so-good {
   width: 100%;
