@@ -212,6 +212,7 @@ body {
     background-image: url("img/moulin.png");
     background-size: cover;
     background-position: center;
+    background-color: #e8e7e2;
     padding-top: 15vh;
     padding-left: 10vh;
     padding-right: 10vh;
@@ -274,7 +275,7 @@ body {
 }
 
 #section4 .superposer-papier {
-    transform: translateX(262px);
+    transform: translateX(140px);
 }
 
 #section4 .stacked {
@@ -401,7 +402,7 @@ body {
     outline-offset: -25px;
 }
 
-#section-5 .img-last {
+#section-5 .dernier-image {
     width: 40%;
     margin: 1px auto;
     display: block;
@@ -430,43 +431,70 @@ body {
     color: #dfc691;
 }
 
-#section5 .container .flex {
+#section5 #sandwich .prep {
+    position: absolute;
+    top: 1%;
+    left: 88%;
+    width: 25%;
+    height: 32%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.8;
+}
+
+#section5 #sandwich .prep p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#section5 #sandwich .prep p:nth-child(2) {
+    color: #56534c;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section5 #sandwich .prep p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
+
+#section5 #sandwich .cook {
+    position: absolute;
+    top: 34%;
+    left: 88%;
+    z-index: 50;
+    width: 25%;
+    height: 32%;
+    background-color: #ffffff;
+}
+
+
+/* #section5 #sandwich .cook {
+    position: absolute;
+    top: 72%;
+    left: 88%;
+    width: 25%;
+    height: 32%;
+    background-color: #ffffff;
+} */
+
+
+/* #section5 .container .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+} */
 
 #section5 .container .blocTexte img:first-child {
     margin: -30px 70px 15px 0px;
 }
 
-.img-taste-so-good {
+
+/* .img-taste-so-good {
     width: 100%;
     height: 180px;
     object-fit: cover;
-}
-
-
-/* #parent {
-position: relative;
-}
-img.superpose {
-position: absolute;
-top: 25px;
-left: 30px;
-}
-#img_1 {
-z-index: 10;
-}
-#img_2 {
-z-index: 11;
-}
-#img_3 {
-z-index: 12;
 } */
-
-.photo1 {
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-}
