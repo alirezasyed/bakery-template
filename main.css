@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 
-#main {
+/* #main {
   position: relative;
   top: 0;
   left: 0;
@@ -32,7 +32,7 @@ body {
   margin: 0 auto;
   color: #171717;
   background-color: #fff;
-}
+} */
 
 /* --------------------------------------------------------------- */
 /*
@@ -51,12 +51,26 @@ body {
   opacity: 0.8;
 }
 
+#header nav {
+  width: 100%;
+}
+
+#header ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header ul li a {
+  color: #ffffff;
+}
+
 #header #logoB {
   position: absolute;
   top: 93%;
 }
 
-#header #radius-bg {
+/* #header #radius-bg {
   width: 50%;
   background-color: #825b58;
   border-radius: 50%;
@@ -66,11 +80,11 @@ body {
   z-index: ;
   position: absolute;
   left: 25%;
-}
+} */
 
-#header #radius-bg .text-white .row {
+/* #header #radius-bg .text-white .row {
   z-index: 20;
-}
+} */
 
 #buttonOurMenu {
   background-color: #56534c;
