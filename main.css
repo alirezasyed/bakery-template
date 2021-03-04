@@ -389,15 +389,15 @@ body {
     color: #a47d5e;
 }
 
-#section5 .container h4 {
+#section5 .blocTexte h4 {
     color: #a47d5e;
 }
 
-#section5 .container p {
+#section5 .blocTexte p {
     color: #56534c;
 }
 
-#section5 .container img:first-child {
+#section5 .container img[alt="burger"] {
     outline: 10px solid #fff;
     outline-offset: -25px;
 }
@@ -416,10 +416,10 @@ body {
 
 #section5 .container #sandwich .petit-boite {
     position: absolute;
-    top: 73%;
+    bottom: 6px;
     z-index: 50;
-    width: 26%;
-    height: 19%;
+    width: 212px;
+    height: 68px;
     background-color: #ffffff;
     border: 1px dotted #dfc691;
     display: flex;
@@ -433,14 +433,14 @@ body {
 
 #section5 #sandwich .prep {
     position: absolute;
-    top: 1%;
-    left: 88%;
-    width: 25%;
-    height: 32%;
+    top: 7px;
+    right: -100px;
+    width: 172px;
+    height: 188px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     opacity: 0.8;
 }
 
@@ -452,7 +452,7 @@ body {
 
 #section5 #sandwich .prep p:nth-child(2) {
     color: #56534c;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -463,23 +463,67 @@ body {
 
 #section5 #sandwich .cook {
     position: absolute;
-    top: 34%;
-    left: 88%;
+    top: 196px;
+    right: -100px;
+    width: 172px;
+    height: 188px;
     z-index: 50;
-    width: 25%;
-    height: 32%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.8;
 }
 
+#section5 #sandwich .cook p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
-/* #section5 #sandwich .cook {
+#section5 #sandwich .cook p:nth-child(2) {
+    color: #56534c;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#section5 #sandwich .cook p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
+
+#section5 #sandwich .ready {
+    background-image: url(img/hills.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 1.5rem;
     position: absolute;
-    top: 72%;
-    left: 88%;
-    width: 25%;
-    height: 32%;
+    top: 384px;
+    right: -100px;
+    width: 172px;
+    height: 188px;
     background-color: #ffffff;
-} */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#section5 #sandwich .ready p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#section5 #sandwich .ready p:nth-child(2) {
+    color: #56534c;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#section5 #sandwich .ready p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
 
 
 /* #section5 .container .flex {
