@@ -76,23 +76,21 @@ body {
     top: 93%;
 }
 
+#header #radius-bg {
+    width: 50%;
+    height: 90%;
+    background-color: #825b58;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    position: absolute;
+    left: 24%;
+}
 
-/* #header #radius-bg {
-  width: 50%;
-  background-color: #825b58;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  opacity: 0.7;
-  z-index: ;
-  position: absolute;
-  left: 25%;
-} */
-
-
-/* #header #radius-bg .text-white .row {
-  z-index: 20;
-} */
+#header .text-white .row {
+    z-index: 20;
+}
 
 #buttonOurMenu {
     background-color: #56534c;
@@ -537,8 +535,18 @@ body {
 }
 
 
-/* .img-taste-so-good {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-} */
+/* --------------------------------------------------------------- */
+
+
+/*
+/* Footer
+/*
+/* --------------------------------------------------------------- */
+
+#footer {
+    background-color: #f3f1e9;
+}
+
+#footer a {
+    color: #56534c;
+}
