@@ -67,10 +67,7 @@
         background-color: #56534c;
         border-radius: 0;
         border: 2px dotted white;
-        padding-left: 64px;
-        padding-right: 64px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding: 8px 64px;
     }
     /* --------------------------------------------------------------- */
     /*
@@ -78,7 +75,7 @@
 /*
 /* --------------------------------------------------------------- */
     
-    #section2 .text-hr {
+    #art-of-cakes .text-hr {
         border-bottom: 1px solid gray;
         border-top: 1px solid gray;
         width: 120px;
@@ -88,21 +85,21 @@
         font-size: 16px;
     }
     
-    #section2 {
+    #art-of-cakes {
         background: url("img/wallpaper.jpg");
         background-size: cover;
     }
     
-    #section2 #img-chef {
+    #art-of-cakes #img-chef {
         border-radius: 100px;
         width: 96px;
     }
     
-    #section2 .quote-chef {
+    #art-of-cakes .quote-chef {
         color: #aa8669;
     }
     
-    #section2 .quote-chef::before {
+    #art-of-cakes .quote-chef::before {
         color: gray;
         font-size: 24px;
         content: "\02bb\02bb";
@@ -110,7 +107,7 @@
         text-align: left;
     }
     
-    #section2 .quote-chef::after {
+    #art-of-cakes .quote-chef::after {
         content: "\02bc\02bc";
         color: gray;
         font-size: 24px;
@@ -118,26 +115,26 @@
         text-align: right;
     }
     
-    #section2 #gateau img[alt="ble"] {
+    #art-of-cakes #gateau img[alt="ble"] {
         outline: 6px solid #fff;
         outline-offset: -14px;
         position: relative;
         z-index: 1;
     }
     
-    #section2 #gateau img[alt="pain&oeuf"] {
+    #art-of-cakes #gateau img[alt="pain&oeuf"] {
         outline: 6px solid #fff;
         outline-offset: -14px;
     }
     
-    #section2 #gateau img[alt="creme-chocolat"] {
+    #art-of-cakes #gateau img[alt="creme-chocolat"] {
         outline: 6px solid #fff;
         outline-offset: -14px;
         position: relative;
         z-index: 1;
     }
     
-    #section2 #gateau img[alt="fraises&gâteau"] {
+    #art-of-cakes #gateau img[alt="fraises&gâteau"] {
         outline: 6px solid #fff;
         outline-offset: -14px;
     }
@@ -531,6 +528,13 @@
             opacity: 0.7;
             margin: 0 auto;
         }
+        #header #radius-bg h1 {
+            font-size: 4.5em;
+        }
+        /* #art-of-cakes #gateau img[alt="pain&oeuf"],
+        img[alt="fraises&gâteau"] {
+            display: none;
+        } */
     }
     
     @media only screen and (max-width: 767.98px) {
@@ -538,11 +542,27 @@
             width: 100%;
             height: 86%;
         }
+        #header #radius-bg h1 {
+            font-size: 4em;
+        }
+        /* #art-of-cakes #gateau img[alt="pain&oeuf"],
+        img[alt="fraises&gâteau"] {
+            display: block;
+        } */
     }
     
     @media screen and (max-width: 575.98px) {
         #header #radius-bg {
             width: 100%;
-            height: 87%;
+            height: 88%;
+        }
+        #header #radius-bg h1 {
+            font-size: 3.2em;
+        }
+        #buttonOurMenu {
+            background-color: #56534c;
+            border-radius: 0;
+            border: 2px dotted white;
+            padding: 8px 45px;
         }
     }
