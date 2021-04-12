@@ -309,31 +309,43 @@
 /*
 /* --------------------------------------------------------------- */
     
-    #section5 {
+    #sandwich {
         background-image: url("img/last-background.jpg");
         background-size: cover;
         background-position: center;
     }
     
-    #section5 #blocImage h2 {
+    #sandwich #blocImage h2 {
         color: #56534c;
     }
     
-    #section5 #blocImage p {
+    #sandwich #blocImage p {
         color: #a47d5e;
     }
     
-    #section5 .blocTexte h4 {
+    #sandwich .blocTexte h4 {
         color: #a47d5e;
     }
     
-    #section5 .blocTexte p {
+    #sandwich .blocTexte p {
         color: #56534c;
     }
     
-    #section5 .container img[alt="burger"] {
+    #sandwich .burger-conteneur {
+        width: 100%;
+        height: auto;
+    }
+    
+    #sandwich .container img[alt="burger"] {
         outline: 10px solid #fff;
         outline-offset: -25px;
+    }
+    
+    #sandwich img[src="img/blé.png"],
+    img[src="img/ouefs.png"],
+    img[src="img/fromage.png"] {
+        border-radius: 50%;
+        width: 50%;
     }
     
     #section-5 .dernier-image {
@@ -343,14 +355,14 @@
         opacity: 0.2;
     }
     
-    #section5 .container #sandwich img {
+    #sandwich .container #sandwich-img img {
         position: relative;
         clip-path: polygon(0 3%, 100% 3%, 100% 100%, 0% 100%);
     }
     
-    #section5 .container #sandwich .petit-boite {
+    #sandwich .container #sandwich-img .petit-boite {
         position: absolute;
-        bottom: 6px;
+        bottom: 18%;
         z-index: 50;
         width: 212px;
         height: 68px;
@@ -361,16 +373,16 @@
         align-items: center;
     }
     
-    #section5 .container #sandwich .petit-boite h2 {
+    #sandwich .container #sandwich-img .petit-boite h2 {
         color: #dfc691;
     }
     
-    #section5 #sandwich .prep {
+    #sandwich #sandwich-img .prep {
         position: absolute;
         top: 7px;
-        right: -100px;
+        right: 40px;
         width: 172px;
-        height: 188px;
+        height: 170px;
         background-color: #ffffff;
         display: flex;
         flex-direction: column;
@@ -378,29 +390,29 @@
         opacity: 0.8;
     }
     
-    #section5 #sandwich .prep p:first-child {
+    #sandwich #sandwich-img .prep p:first-child {
         color: #a47d5e;
         font-size: 1.5rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .prep p:nth-child(2) {
+    #sandwich #sandwich-img .prep p:nth-child(2) {
         color: #56534c;
         font-size: 4rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .prep p:nth-child(3) {
+    #sandwich #sandwich-img .prep p:nth-child(3) {
         color: #979285;
         font-weight: bold;
     }
     
-    #section5 #sandwich .cook {
+    #sandwich #sandwich-img .cook {
         position: absolute;
-        top: 196px;
-        right: -100px;
+        top: 177px;
+        right: 40px;
         width: 172px;
-        height: 188px;
+        height: 170px;
         z-index: 50;
         background-color: #ffffff;
         display: flex;
@@ -409,64 +421,60 @@
         opacity: 0.8;
     }
     
-    #section5 #sandwich .cook p:first-child {
+    #sandwich #sandwich-img .cook p:first-child {
         color: #a47d5e;
         font-size: 1.5rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .cook p:nth-child(2) {
+    #sandwich #sandwich-img .cook p:nth-child(2) {
         color: #56534c;
         font-size: 4rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .cook p:nth-child(3) {
+    #sandwich #sandwich-img .cook p:nth-child(3) {
         color: #979285;
         font-weight: bold;
     }
     
-    #section5 #sandwich .ready {
+    #sandwich #sandwich-img .ready {
         background-image: url(img/hills.png);
         background-size: cover;
         background-position: center;
         background-position-y: 1.5rem;
         position: absolute;
-        top: 384px;
-        right: -100px;
+        top: 346px;
+        right: 40px;
         width: 172px;
-        height: 188px;
+        height: 170px;
         background-color: #ffffff;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
     
-    #section5 #sandwich .ready p:first-child {
+    #sandwich #sandwich-img .ready p:first-child {
         color: #a47d5e;
         font-size: 1.5rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .ready p:nth-child(2) {
+    #sandwich #sandwich-img .ready p:nth-child(2) {
         color: #56534c;
         font-size: 4rem;
         font-weight: bold;
     }
     
-    #section5 #sandwich .ready p:nth-child(3) {
+    #sandwich #sandwich-img .ready p:nth-child(3) {
         color: #979285;
         font-weight: bold;
     }
-    /* #section5 .container .flex {
+    /* #sandwich .container .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 } */
-    
-    #section5 .container .blocTexte img:first-child {
-        margin: -30px 70px 15px 0px;
-    }
     /* --------------------------------------------------------------- */
     /*
 /* Footer
@@ -498,6 +506,103 @@
             border-radius: 50%;
             opacity: 0.7;
             margin: 0 auto;
+        }
+        #sandwich .container #sandwich-img .petit-boite {
+            position: absolute;
+            bottom: 143px;
+            z-index: 50;
+            width: 212px;
+            height: 68px;
+            background-color: #ffffff;
+            border: 1px dotted #dfc691;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #sandwich .container #sandwich-img .petit-boite h2 {
+            color: #dfc691;
+        }
+        #sandwich #sandwich-img .prep {
+            position: absolute;
+            top: 7px;
+            right: 40px;
+            width: 165px;
+            height: 160px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0.8;
+        }
+        #sandwich #sandwich-img .prep p:first-child {
+            color: #a47d5e;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .prep p:nth-child(2) {
+            color: #56534c;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .prep p:nth-child(3) {
+            color: #979285;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .cook {
+            position: absolute;
+            top: 167px;
+            right: 40px;
+            width: 165px;
+            height: 160px;
+            z-index: 50;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            opacity: 0.8;
+        }
+        #sandwich #sandwich-img .cook p:first-child {
+            color: #a47d5e;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .cook p:nth-child(2) {
+            color: #56534c;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .cook p:nth-child(3) {
+            color: #979285;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .ready {
+            background-image: url(img/hills.png);
+            background-size: cover;
+            background-position: center;
+            background-position-y: 1.5rem;
+            position: absolute;
+            top: 327px;
+            right: 40px;
+            width: 165px;
+            height: 160px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #sandwich #sandwich-img .ready p:first-child {
+            color: #a47d5e;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .ready p:nth-child(2) {
+            color: #56534c;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        #sandwich #sandwich-img .ready p:nth-child(3) {
+            color: #979285;
+            font-weight: bold;
         }
     }
     
@@ -601,6 +706,9 @@
         }
         #breakfast .superposer-papier {
             margin: 25% 0;
+        }
+        #breakfast #sandwich-img {
+            margin: 0 auto;
         }
     }
     
