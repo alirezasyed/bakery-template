@@ -651,8 +651,8 @@ img[src="img/fromage.png"] {
     }
     #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
         position: absolute;
-        top: 88%;
-        left: 78%;
+        top: 85%;
+        left: 70%;
         /* z-index: 10; */
     }
 }
@@ -759,10 +759,9 @@ img[src="img/fromage.png"] {
 
 @media screen and (max-width: 479.98px) {
     #breakfast .stacked {
-        background-color: #f3f1e9;
         width: 255px;
         height: 290px;
-        margin-left: 53px;
+        margin-left: 95px;
     }
     #breakfast .stacked_2 {
         width: 240px;
@@ -782,8 +781,8 @@ img[src="img/fromage.png"] {
     }
     #breakfast .date-logo {
         position: absolute;
-        top: 0;
-        left: 10%;
+        top: -34px;
+        left: 0%;
     }
     #breakfast .stacked_3 p:first-child {
         word-spacing: 17ch;
@@ -795,20 +794,22 @@ img[src="img/fromage.png"] {
     #breakfast .stacked_3 h1 {
         font-size: 17px;
         margin-bottom: 14px;
-        margin-top: 117%;
+        margin-top: 42%;
     }
     #breakfast .stacked_3 .texts {
-        padding: 67px;
+        padding: 43px;
     }
     #breakfast .stacked_3 .texts button {
-        padding: 15px 65px;
-        margin-top: 10%;
-        /* color: #a47d5e; */
+        padding: 9px 21px;
+        margin-top: 6%;
     }
     #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
         position: absolute;
-        top: 80%;
-        left: 74%;
+        top: 86%;
+        left: 77%
         /* z-index: 10; */
+    }
+    #art-of-cakes p span {
+        display: none;
     }
 }
