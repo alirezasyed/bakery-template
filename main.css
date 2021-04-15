@@ -1,729 +1,814 @@
-    /* --------------------------------------------------------------- */
-    /*
+/* --------------------------------------------------------------- */
+
+
+/*
 /* HTML
 /*
 /* --------------------------------------------------------------- */
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
-        font-family: "Playfair Display";
-        font-size: 13px;
-        text-align: center;
-        overflow-x: hidden;
-    }
-    /* --------------------------------------------------------------- */
-    /*
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Playfair Display";
+    font-size: 13px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
 /* HEADER
 /*
 /* --------------------------------------------------------------- */
-    
-    #header {
-        background-image: url("img/header.png");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #header #navbar {
-        background-color: #56534c;
-        opacity: 0.8;
-    }
-    
-    #header nav {
-        width: 100%;
-    }
-    
-    #header ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    #header ul li a {
-        color: #ffffff;
-    }
-    
-    #header #radius-bg {
-        width: 50%;
-        height: 84%;
-        background-color: #825b58;
-        border-radius: 50%;
-        opacity: 0.7;
-        margin: 0 auto;
-    }
-    
-    #header .text-white .row {
-        z-index: 20;
-    }
-    
-    #buttonOurMenu {
-        background-color: #56534c;
-        border-radius: 0;
-        border: 2px dotted white;
-        padding: 8px 64px;
-    }
-    /* --------------------------------------------------------------- */
-    /*
-/* Section_2
+
+#header {
+    background-image: url("img/header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#header #navbar {
+    background-color: #56534c;
+    opacity: 0.8;
+}
+
+#header nav {
+    width: 100%;
+}
+
+#header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header ul li a {
+    color: #ffffff;
+}
+
+#header #radius-bg {
+    width: 50%;
+    height: 84%;
+    background-color: #825b58;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+#header .text-white .row {
+    z-index: 20;
+}
+
+#buttonOurMenu {
+    background-color: #56534c;
+    border-radius: 0;
+    border: 2px dotted white;
+    padding: 8px 64px;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
+/* Section_2 Art of cakes
 /*
 /* --------------------------------------------------------------- */
-    
-    #art-of-cakes .text-hr {
-        border-bottom: 1px solid gray;
-        border-top: 1px solid gray;
-        width: 120px;
-        text-align: center;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        font-size: 16px;
-    }
-    
-    #art-of-cakes {
-        background: url("img/wallpaper.jpg");
-        background-size: cover;
-    }
-    
-    #art-of-cakes #img-chef {
-        border-radius: 100px;
-        width: 96px;
-    }
-    
-    #art-of-cakes .quote-chef {
-        color: #aa8669;
-    }
-    
-    #art-of-cakes .quote-chef::before {
-        color: gray;
-        font-size: 24px;
-        content: "\02bb\02bb";
-        display: block;
-        text-align: left;
-    }
-    
-    #art-of-cakes .quote-chef::after {
-        content: "\02bc\02bc";
-        color: gray;
-        font-size: 24px;
-        display: block;
-        text-align: right;
-    }
-    
-    #art-of-cakes #gateau img[alt="ble"] {
-        outline: 6px solid #fff;
-        outline-offset: -14px;
-        position: relative;
-        z-index: 1;
-    }
-    
-    #art-of-cakes #gateau img[alt="pain&oeuf"] {
-        outline: 6px solid #fff;
-        outline-offset: -14px;
-    }
-    
-    #art-of-cakes #gateau img[alt="creme-chocolat"] {
-        outline: 6px solid #fff;
-        outline-offset: -14px;
-        position: relative;
-        z-index: 1;
-    }
-    
-    #art-of-cakes #gateau img[alt="fraises&gâteau"] {
-        outline: 6px solid #fff;
-        outline-offset: -14px;
-    }
-    /* --------------------------------------------------------------- */
-    /*
+
+#art-of-cakes .text-hr {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    width: 120px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+#art-of-cakes {
+    background: url("img/wallpaper.jpg");
+    background-size: cover;
+}
+
+#art-of-cakes #img-chef {
+    border-radius: 100px;
+    width: 96px;
+}
+
+#art-of-cakes .quote-chef {
+    color: #aa8669;
+}
+
+#art-of-cakes .quote-chef::before {
+    color: gray;
+    font-size: 24px;
+    content: "\02bb\02bb";
+    display: block;
+    text-align: left;
+}
+
+#art-of-cakes .quote-chef::after {
+    content: "\02bc\02bc";
+    color: gray;
+    font-size: 24px;
+    display: block;
+    text-align: right;
+}
+
+#art-of-cakes #gateau img[alt="ble"] {
+    outline: 6px solid #fff;
+    outline-offset: -14px;
+    position: relative;
+    z-index: 1;
+}
+
+#art-of-cakes #gateau img[alt="pain&oeuf"] {
+    outline: 6px solid #fff;
+    outline-offset: -14px;
+}
+
+#art-of-cakes #gateau img[alt="creme-chocolat"] {
+    outline: 6px solid #fff;
+    outline-offset: -14px;
+    position: relative;
+    z-index: 1;
+}
+
+#art-of-cakes #gateau img[alt="fraises&gâteau"] {
+    outline: 6px solid #fff;
+    outline-offset: -14px;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
 /* Section_3
 /*
 /* --------------------------------------------------------------- */
-    
-    #tasty-pancake {
-        background-image: url("img/ingredients.png");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #section_3 .text-color-brown {
-        color: #aa8669;
-    }
-    
-    #tasty-pancake-row {
-        background-color: white;
-    }
-    
-    #tasty-pancake #coulis {
-        height: 80vh;
-        background-image: url("img/coulis.png");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #tasty-pancake #tasty-pancakes {
-        height: 80vh;
-        background-image: url("img/moulin.png");
-        background-size: cover;
-        background-position: center;
-        background-color: #e8e7e2;
-        padding-top: 10vh;
-    }
-    
-    #tasty-pancake #season {
-        margin-bottom: 10vh;
-    }
-    
-    #tasty-pancake .block {
-        overflow: hidden;
-        width: 400px;
-        margin: 50px auto;
-        margin-top: 120px;
-    }
-    
-    #tasty-pancake .animation {
-        width: auto;
-        height: 100px;
-        font-size: 0px;
-    }
-    
-    #tasty-pancake .animation div {
-        display: inline-block;
-        width: auto;
-        float: none;
-        padding: 0 10px;
-    }
-    
-    #tasty-pancake .animation img {
-        height: 120px;
-        width: 120px;
-        object-fit: cover;
-        border-radius: 100px;
-    }
-    /* --------------------------------------------------------------- */
-    /*
+
+#tasty-pancake {
+    background-image: url("img/ingredients.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#section_3 .text-color-brown {
+    color: #aa8669;
+}
+
+#tasty-pancake-row {
+    background-color: white;
+}
+
+#tasty-pancake #coulis {
+    height: 80vh;
+    background-image: url("img/coulis.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#tasty-pancake #tasty-pancakes {
+    height: 80vh;
+    background-image: url("img/moulin.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #e8e7e2;
+    padding-top: 10vh;
+}
+
+#tasty-pancake #season {
+    margin-bottom: 10vh;
+}
+
+#tasty-pancake .block {
+    overflow: hidden;
+    width: 400px;
+    margin: 50px auto;
+    margin-top: 120px;
+}
+
+#tasty-pancake .animation {
+    width: auto;
+    height: 100px;
+    font-size: 0px;
+}
+
+#tasty-pancake .animation div {
+    display: inline-block;
+    width: auto;
+    float: none;
+    padding: 0 10px;
+}
+
+#tasty-pancake .animation img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
 /* Section_4
 /*
 /* --------------------------------------------------------------- */
-    
-    #breakfast {
-        background-image: url("img/oeuf.png");
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 100vh;
+
+#breakfast {
+    background-image: url("img/oeuf.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#breakfast .breakfast-list p:nth-of-type(even) {
+    color: #c2beba;
+}
+
+#breakfast .breakfast-list p:nth-of-type(odd) {
+    color: #dfc691;
+}
+
+#breakfast .breakfast-list p:nth-child(2) {
+    color: #c8a593;
+}
+
+#breakfast .stacked {
+    background-color: #f3f1e9;
+    width: 504px;
+    height: 442px;
+    border: 2px solid #fff;
+    outline: 1px dashed #000;
+    outline-offset: -10px;
+    position: relative;
+}
+
+#breakfast .stacked_2 {
+    background-color: #f3f1e9;
+    width: 489px;
+    height: 495px;
+    border: 2px solid #fff;
+    outline: 1px dashed #000;
+    outline-offset: -10px;
+    position: absolute;
+    bottom: -29px;
+}
+
+#breakfast .stacked_3 {
+    background: linear-gradient(45deg, transparent 22px, #f3f1e9 0) bottom left;
+    outline: 1px dashed #000;
+    outline-offset: -10px;
+    position: absolute;
+    bottom: -32px;
+    right: 13px;
+    width: 478px;
+    height: 559px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#breakfast .stacked_3 p:first-child {
+    word-spacing: 17ch;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #56534c;
+}
+
+#breakfast .stacked_3 h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #56534c;
+    margin-bottom: 40px;
+}
+
+#breakfast .stacked_3 .texts {
+    position: absolute;
+    padding: 67px;
+}
+
+#breakfast .stacked_3 .texts button {
+    padding: 15px 65px;
+    border: 1px solid #9e9c93;
+    color: #a47d5e;
+    margin-top: 10%;
+}
+
+#breakfast .stacked_3 img[src="img/bakery_feather.png"] {
+    position: absolute;
+    top: 58%;
+    left: 77%;
+    z-index: 10;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
+/* SECTION_5 Sandwich
+/*
+/* --------------------------------------------------------------- */
+
+#sandwich {
+    background-image: url("img/last-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#sandwich #blocImage h2 {
+    color: #56534c;
+}
+
+#sandwich #blocImage p {
+    color: #a47d5e;
+}
+
+#sandwich .blocTexte h4 {
+    color: #a47d5e;
+}
+
+#sandwich .blocTexte p {
+    color: #56534c;
+}
+
+#sandwich .burger-conteneur {
+    width: 100%;
+    height: auto;
+}
+
+#sandwich .container img[alt="burger"] {
+    outline: 10px solid #fff;
+    outline-offset: -25px;
+}
+
+#sandwich img[src="img/blé.png"],
+img[src="img/ouefs.png"],
+img[src="img/fromage.png"] {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#section-5 .dernier-image {
+    width: 40%;
+    margin: 1px auto;
+    display: block;
+    opacity: 0.2;
+}
+
+#sandwich .container #sandwich-img img {
+    position: relative;
+    clip-path: polygon(0 3%, 100% 3%, 100% 100%, 0% 100%);
+}
+
+#sandwich .container #sandwich-img .petit-boite {
+    position: absolute;
+    bottom: 18%;
+    z-index: 50;
+    width: 212px;
+    height: 68px;
+    background-color: #ffffff;
+    border: 1px dotted #dfc691;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sandwich .container #sandwich-img .petit-boite h2 {
+    color: #dfc691;
+}
+
+#sandwich #sandwich-img .prep {
+    position: absolute;
+    top: 7px;
+    right: 40px;
+    width: 172px;
+    height: 170px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+#sandwich #sandwich-img .prep p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .prep p:nth-child(2) {
+    color: #56534c;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .prep p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .cook {
+    position: absolute;
+    top: 177px;
+    right: 40px;
+    width: 172px;
+    height: 170px;
+    z-index: 50;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.8;
+}
+
+#sandwich #sandwich-img .cook p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .cook p:nth-child(2) {
+    color: #56534c;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .cook p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .ready {
+    background-image: url(img/hills.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 1.5rem;
+    position: absolute;
+    top: 346px;
+    right: 40px;
+    width: 172px;
+    height: 170px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sandwich #sandwich-img .ready p:first-child {
+    color: #a47d5e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .ready p:nth-child(2) {
+    color: #56534c;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#sandwich #sandwich-img .ready p:nth-child(3) {
+    color: #979285;
+    font-weight: bold;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
+/* Footer
+/*
+/* --------------------------------------------------------------- */
+
+#footer {
+    background-color: #f3f1e9;
+    padding-top: 150px;
+}
+
+#footer a {
+    color: #56534c;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+/*
+/* Media Queries
+/*
+/* --------------------------------------------------------------- */
+
+@media screen and (max-width: 1199.98px)
+/*  */
+
+{
+    #header #radius-bg {
+        width: 60%;
+        height: 84%;
     }
-    
-    #breakfast .breakfast-list p:nth-of-type(even) {
-        color: #c2beba;
+    #sandwich .container #sandwich-img .petit-boite {
+        position: absolute;
+        bottom: 145px;
+        height: 4.5em;
+        width: 14em;
     }
-    
-    #breakfast .breakfast-list p:nth-of-type(odd) {
+    #sandwich .container #sandwich-img .petit-boite h2 {
         color: #dfc691;
+        font-size: 22px;
     }
-    
-    #breakfast .breakfast-list p:nth-child(2) {
-        color: #c8a593;
+    #sandwich #sandwich-img .prep {
+        position: absolute;
+        top: 7px;
+        right: 40px;
+        width: 165px;
+        height: 140px;
     }
-    /* #breakfast .superposer-papier {
-        
-    } */
-    
+    #sandwich #sandwich-img .cook {
+        position: absolute;
+        top: 147px;
+        right: 40px;
+        width: 165px;
+        height: 140px;
+    }
+    #sandwich #sandwich-img .ready {
+        position: absolute;
+        top: 287px;
+        right: 40px;
+        width: 165px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 991.98px)
+/*  */
+
+{
+    #header #radius-bg {
+        width: 70%;
+        height: 85%;
+    }
+    #header #radius-bg h1 {
+        font-size: 4.5em;
+    }
+    #buttonOurMenu {
+        padding: 8px 60px;
+    }
+    #sandwich .container #sandwich-img .petit-boite {
+        position: absolute;
+        bottom: 190px;
+        /* height: 12%; */
+        height: 3.2em;
+        width: 10em;
+    }
+    #sandwich .container #sandwich-img .petit-boite h2 {
+        color: #dfc691;
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .prep {
+        position: absolute;
+        top: 9px;
+        right: 40px;
+        width: 165px;
+        height: 102px;
+    }
+    #sandwich #sandwich-img .cook {
+        position: absolute;
+        top: 111px;
+        right: 40px;
+        width: 165px;
+        height: 103px;
+    }
+    #sandwich #sandwich-img .ready {
+        position: absolute;
+        top: 213px;
+        right: 40px;
+        width: 165px;
+        height: 103px;
+    }
     #breakfast .stacked {
         background-color: #f3f1e9;
-        width: 504px;
-        height: 442px;
-        border: 2px solid #fff;
-        outline: 1px dashed #000;
-        outline-offset: -10px;
-        position: relative;
-        /* bottom: -5%; */
+        width: 450px;
+        height: 400px;
     }
-    
     #breakfast .stacked_2 {
-        background-color: #f3f1e9;
-        width: 489px;
-        height: 495px;
+        width: 430px;
+        height: 450px;
         border: 2px solid #fff;
-        outline: 1px dashed #000;
         outline-offset: -10px;
         position: absolute;
         bottom: -29px;
     }
-    
     #breakfast .stacked_3 {
-        background: linear-gradient(45deg, transparent 22px, #f3f1e9 0) bottom left;
-        outline: 1px dashed #000;
         outline-offset: -10px;
         position: absolute;
         bottom: -32px;
         right: 13px;
-        width: 478px;
-        height: 559px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        width: 450px;
+        height: 510px;
     }
-    
+    #breakfast .date-logo {
+        position: absolute;
+        top: -48px;
+        left: 10%;
+    }
     #breakfast .stacked_3 p:first-child {
         word-spacing: 17ch;
         font-size: 19px;
         text-transform: uppercase;
         color: #56534c;
+        margin-top: 25px;
     }
-    /* #breakfast .stacked_3 p {
-        margin-bottom: 29px;
-    } */
-    
     #breakfast .stacked_3 h1 {
         font-weight: bold;
         font-size: 40px;
         color: #56534c;
         margin-bottom: 40px;
+        margin-top: 20%;
     }
-    
     #breakfast .stacked_3 .texts {
         padding: 67px;
     }
-    
     #breakfast .stacked_3 .texts button {
         padding: 15px 65px;
-        border: 1px solid #9e9c93;
-        color: #a47d5e;
         margin-top: 10%;
+        /* color: #a47d5e; */
     }
-    
     #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
         position: absolute;
-        top: 73%;
-        left: 62%;
-        z-index: 10;
+        top: 88%;
+        left: 78%;
+        /* z-index: 10; */
     }
-    /* --------------------------------------------------------------- */
-    /*
-/* SECTION_5
-/*
-/* --------------------------------------------------------------- */
-    
-    #sandwich {
-        background-image: url("img/last-background.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #sandwich #blocImage h2 {
-        color: #56534c;
-    }
-    
-    #sandwich #blocImage p {
-        color: #a47d5e;
-    }
-    
-    #sandwich .blocTexte h4 {
-        color: #a47d5e;
-    }
-    
-    #sandwich .blocTexte p {
-        color: #56534c;
-    }
-    
-    #sandwich .burger-conteneur {
+}
+
+@media screen and (max-width: 767.98px) {
+    #header #radius-bg {
         width: 100%;
-        height: auto;
+        height: 86%;
     }
-    
-    #sandwich .container img[alt="burger"] {
-        outline: 10px solid #fff;
-        outline-offset: -25px;
+    #header #radius-bg h1 {
+        font-size: 4em;
     }
-    
-    #sandwich img[src="img/blé.png"],
-    img[src="img/ouefs.png"],
-    img[src="img/fromage.png"] {
-        border-radius: 50%;
-        width: 50%;
-    }
-    
-    #section-5 .dernier-image {
-        width: 40%;
-        margin: 1px auto;
-        display: block;
-        opacity: 0.2;
-    }
-    
-    #sandwich .container #sandwich-img img {
-        position: relative;
-        clip-path: polygon(0 3%, 100% 3%, 100% 100%, 0% 100%);
-    }
-    
     #sandwich .container #sandwich-img .petit-boite {
         position: absolute;
-        bottom: 18%;
-        z-index: 50;
-        width: 212px;
-        height: 68px;
-        background-color: #ffffff;
-        border: 1px dotted #dfc691;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        bottom: 5px;
+        height: 3.8em;
+        width: 11.5em;
     }
-    
+    #art-of-cakes #gateau img {
+        margin-bottom: 10px;
+    }
     #sandwich .container #sandwich-img .petit-boite h2 {
         color: #dfc691;
+        font-size: 18px;
     }
-    
+    #breakfast {
+        height: calc(100% * 2);
+    }
+    #breakfast .superposer-papier {
+        margin: 25% 0;
+    }
+    #breakfast #sandwich-img {
+        margin: 0 auto;
+    }
     #sandwich #sandwich-img .prep {
         position: absolute;
-        top: 7px;
+        top: 9px;
         right: 40px;
-        width: 172px;
-        height: 170px;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0.8;
+        width: 165px;
+        height: 118px;
     }
-    
-    #sandwich #sandwich-img .prep p:first-child {
-        color: #a47d5e;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    
-    #sandwich #sandwich-img .prep p:nth-child(2) {
-        color: #56534c;
-        font-size: 4rem;
-        font-weight: bold;
-    }
-    
-    #sandwich #sandwich-img .prep p:nth-child(3) {
-        color: #979285;
-        font-weight: bold;
-    }
-    
     #sandwich #sandwich-img .cook {
         position: absolute;
-        top: 177px;
+        top: 127px;
         right: 40px;
-        width: 172px;
-        height: 170px;
-        z-index: 50;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        opacity: 0.8;
+        width: 165px;
+        height: 118px;
     }
-    
-    #sandwich #sandwich-img .cook p:first-child {
-        color: #a47d5e;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    
-    #sandwich #sandwich-img .cook p:nth-child(2) {
-        color: #56534c;
-        font-size: 4rem;
-        font-weight: bold;
-    }
-    
-    #sandwich #sandwich-img .cook p:nth-child(3) {
-        color: #979285;
-        font-weight: bold;
-    }
-    
     #sandwich #sandwich-img .ready {
-        background-image: url(img/hills.png);
-        background-size: cover;
-        background-position: center;
-        background-position-y: 1.5rem;
         position: absolute;
-        top: 346px;
+        top: 243px;
         right: 40px;
-        width: 172px;
-        height: 170px;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        width: 165px;
+        height: 118px;
     }
-    
-    #sandwich #sandwich-img .ready p:first-child {
-        color: #a47d5e;
-        font-size: 1.5rem;
-        font-weight: bold;
+}
+
+@media screen and (max-width: 575.98px) {
+    #header #radius-bg {
+        width: 100%;
+        height: 88%;
     }
-    
-    #sandwich #sandwich-img .ready p:nth-child(2) {
-        color: #56534c;
-        font-size: 4rem;
-        font-weight: bold;
+    #header #radius-bg h1 {
+        font-size: 3.2em;
     }
-    
-    #sandwich #sandwich-img .ready p:nth-child(3) {
-        color: #979285;
-        font-weight: bold;
+    #sandwich .container #sandwich-img .petit-boite {
+        position: absolute;
+        bottom: 5px;
+        height: 3.2em;
+        width: 10em;
     }
-    /* #sandwich .container .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
-    /* --------------------------------------------------------------- */
-    /*
-/* Footer
-/*
-/* --------------------------------------------------------------- */
-    
-    #footer {
+    #sandwich .container #sandwich-img .petit-boite h2 {
+        color: #dfc691;
+        font-size: 15px;
+    }
+    #buttonOurMenu {
+        background-color: #56534c;
+        border-radius: 0;
+        border: 2px dotted white;
+        padding: 8px 45px;
+    }
+    #sandwich #sandwich-img .prep {
+        position: absolute;
+        top: 9px;
+        right: 40px;
+        width: 165px;
+        height: 118px;
+    }
+    #sandwich #sandwich-img .cook {
+        position: absolute;
+        top: 127px;
+        right: 40px;
+        width: 165px;
+        height: 118px;
+    }
+    #sandwich #sandwich-img .ready {
+        position: absolute;
+        top: 229px;
+        right: 40px;
+        width: 126px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 479.98px) {
+    #breakfast .stacked {
         background-color: #f3f1e9;
-        padding-top: 150px;
+        width: 255px;
+        height: 290px;
+        margin-left: 53px;
     }
-    
-    #footer a {
+    #breakfast .stacked_2 {
+        width: 240px;
+        height: 336px;
+        border: 2px solid #fff;
+        outline-offset: -10px;
+        position: absolute;
+        bottom: -29px;
+    }
+    #breakfast .stacked_3 {
+        outline-offset: -10px;
+        position: absolute;
+        bottom: -24px;
+        right: 11px;
+        width: 282px;
+        height: 379px;
+    }
+    #breakfast .date-logo {
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+    #breakfast .stacked_3 p:first-child {
+        word-spacing: 17ch;
+        font-size: 12px;
+        text-transform: uppercase;
         color: #56534c;
+        margin-top: 25px;
     }
-    /* --------------------------------------------------------------- */
-    /*
-/* Media Queries
-/*
-/* --------------------------------------------------------------- */
-    
-    @media screen and (max-width: 1199.98px)
-    /*  */
-    
-    {
-        #header #radius-bg {
-            width: 60%;
-            height: 84%;
-            background-color: #825b58;
-            border-radius: 50%;
-            opacity: 0.7;
-            margin: 0 auto;
-        }
-        #sandwich .container #sandwich-img .petit-boite {
-            position: absolute;
-            bottom: 143px;
-            z-index: 50;
-            width: 212px;
-            height: 68px;
-            background-color: #ffffff;
-            border: 1px dotted #dfc691;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        #sandwich .container #sandwich-img .petit-boite h2 {
-            color: #dfc691;
-        }
-        #sandwich #sandwich-img .prep {
-            position: absolute;
-            top: 7px;
-            right: 40px;
-            width: 165px;
-            height: 160px;
-            background-color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            opacity: 0.8;
-        }
-        #sandwich #sandwich-img .prep p:first-child {
-            color: #a47d5e;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .prep p:nth-child(2) {
-            color: #56534c;
-            font-size: 4rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .prep p:nth-child(3) {
-            color: #979285;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .cook {
-            position: absolute;
-            top: 167px;
-            right: 40px;
-            width: 165px;
-            height: 160px;
-            z-index: 50;
-            background-color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            opacity: 0.8;
-        }
-        #sandwich #sandwich-img .cook p:first-child {
-            color: #a47d5e;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .cook p:nth-child(2) {
-            color: #56534c;
-            font-size: 4rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .cook p:nth-child(3) {
-            color: #979285;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .ready {
-            background-image: url(img/hills.png);
-            background-size: cover;
-            background-position: center;
-            background-position-y: 1.5rem;
-            position: absolute;
-            top: 327px;
-            right: 40px;
-            width: 165px;
-            height: 160px;
-            background-color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-        #sandwich #sandwich-img .ready p:first-child {
-            color: #a47d5e;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .ready p:nth-child(2) {
-            color: #56534c;
-            font-size: 4rem;
-            font-weight: bold;
-        }
-        #sandwich #sandwich-img .ready p:nth-child(3) {
-            color: #979285;
-            font-weight: bold;
-        }
+    #breakfast .stacked_3 h1 {
+        font-size: 17px;
+        margin-bottom: 14px;
+        margin-top: 117%;
     }
-    
-    @media screen and (max-width: 991.98px)
-    /*  */
-    
-    {
-        #header #radius-bg {
-            width: 70%;
-            height: 85%;
-            background-color: #825b58;
-            border-radius: 50%;
-            opacity: 0.7;
-            margin: 0 auto;
-        }
-        #header #radius-bg h1 {
-            font-size: 4.5em;
-        }
-        #breakfast .stacked {
-            background-color: #f3f1e9;
-            width: 450px;
-            height: 400px;
-            border: 2px solid #fff;
-            outline: 1px dashed #000;
-            outline-offset: -10px;
-            position: relative;
-            /* bottom: -5%; */
-        }
-        #breakfast .stacked_2 {
-            background-color: #f3f1e9;
-            width: 430px;
-            height: 450px;
-            border: 2px solid #fff;
-            outline: 1px dashed #000;
-            outline-offset: -10px;
-            position: absolute;
-            bottom: -29px;
-        }
-        #breakfast .stacked_3 {
-            background: linear-gradient(45deg, transparent 22px, #f3f1e9 0) bottom left;
-            outline: 1px dashed #000;
-            outline-offset: -10px;
-            position: absolute;
-            bottom: -32px;
-            right: 13px;
-            width: 450px;
-            height: 510px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-        #breakfast .date-logo {
-            position: absolute;
-            top: 0;
-            left: 10%;
-        }
-        #breakfast .stacked_3 p:first-child {
-            word-spacing: 17ch;
-            font-size: 19px;
-            text-transform: uppercase;
-            color: #56534c;
-            margin-top: 25px;
-        }
-        /* #breakfast .stacked_3 p {
-            margin-bottom: 29px;
-        } */
-        #breakfast .stacked_3 h1 {
-            font-weight: bold;
-            font-size: 40px;
-            color: #56534c;
-            margin-bottom: 40px;
-            margin-top: 20%;
-        }
-        #breakfast .stacked_3 .texts {
-            padding: 67px;
-        }
-        #breakfast .stacked_3 .texts button {
-            padding: 15px 65px;
-            margin-top: 10%;
-            border: 1px solid #9e9c93;
-            color: #a47d5e;
-        }
-        #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
-            position: absolute;
-            top: 73%;
-            left: 62%;
-            z-index: 10;
-        }
+    #breakfast .stacked_3 .texts {
+        padding: 67px;
     }
-    
-    @media only screen and (max-width: 767.98px) {
-        #header #radius-bg {
-            width: 100%;
-            height: 86%;
-        }
-        #header #radius-bg h1 {
-            font-size: 4em;
-        }
-        #breakfast {
-            height: calc(100% * 2);
-        }
-        #breakfast .superposer-papier {
-            margin: 25% 0;
-        }
-        #breakfast #sandwich-img {
-            margin: 0 auto;
-        }
+    #breakfast .stacked_3 .texts button {
+        padding: 15px 65px;
+        margin-top: 10%;
+        /* color: #a47d5e; */
     }
-    
-    @media screen and (max-width: 575.98px) {
-        #header #radius-bg {
-            width: 100%;
-            height: 88%;
-        }
-        #header #radius-bg h1 {
-            font-size: 3.2em;
-        }
-        #buttonOurMenu {
-            background-color: #56534c;
-            border-radius: 0;
-            border: 2px dotted white;
-            padding: 8px 45px;
-        }
+    #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
+        position: absolute;
+        top: 80%;
+        left: 74%;
+        /* z-index: 10; */
     }
+}
