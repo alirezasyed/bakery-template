@@ -529,7 +529,6 @@ img[src="img/fromage.png"] {
         width: 14em;
     }
     #sandwich .container #sandwich-img .petit-boite h2 {
-        color: #dfc691;
         font-size: 22px;
     }
     #sandwich #sandwich-img .prep {
@@ -539,6 +538,19 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 140px;
     }
+    #sandwich #sandwich-img .prep p:first-child {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(2) {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(3) {
+        font-weight: bold;
+        font-size: 24px;
+    }
     #sandwich #sandwich-img .cook {
         position: absolute;
         top: 147px;
@@ -546,12 +558,36 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 140px;
     }
+    #sandwich #sandwich-img .cook p:first-child {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(2) {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(3) {
+        font-weight: bold;
+        font-size: 24px;
+    }
     #sandwich #sandwich-img .ready {
         position: absolute;
         top: 287px;
         right: 40px;
         width: 165px;
         height: 140px;
+    }
+    #sandwich #sandwich-img .ready p:first-child {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(2) {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(3) {
+        font-size: 24px;
     }
 }
 
@@ -572,12 +608,10 @@ img[src="img/fromage.png"] {
     #sandwich .container #sandwich-img .petit-boite {
         position: absolute;
         bottom: 190px;
-        /* height: 12%; */
         height: 3.2em;
         width: 10em;
     }
     #sandwich .container #sandwich-img .petit-boite h2 {
-        color: #dfc691;
         font-size: 18px;
     }
     #sandwich #sandwich-img .prep {
@@ -587,12 +621,31 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 102px;
     }
+    #sandwich #sandwich-img .prep p:first-child {
+        font-size: 18px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(3) {
+        font-size: 18px;
+    }
     #sandwich #sandwich-img .cook {
         position: absolute;
         top: 111px;
         right: 40px;
         width: 165px;
         height: 103px;
+    }
+    #sandwich #sandwich-img .cook p:first-child {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(3) {
+        font-size: 18px;
     }
     #sandwich #sandwich-img .ready {
         position: absolute;
@@ -601,8 +654,17 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 103px;
     }
+    #sandwich #sandwich-img .ready p:first-child {
+        font-size: 18px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(3) {
+        font-size: 18px;
+    }
     #breakfast .stacked {
-        background-color: #f3f1e9;
         width: 445px;
         height: 400px;
     }
@@ -635,9 +697,7 @@ img[src="img/fromage.png"] {
         margin-top: 25px;
     }
     #breakfast .stacked_3 h1 {
-        font-weight: bold;
         font-size: 40px;
-        color: #56534c;
         margin-bottom: 40px;
         margin-top: 20%;
     }
@@ -647,13 +707,11 @@ img[src="img/fromage.png"] {
     #breakfast .stacked_3 .texts button {
         padding: 15px 65px;
         margin-top: 10%;
-        /* color: #a47d5e; */
     }
     #breakfast .stacked_3 img[src="img/bakery_feather.png"] {
         position: absolute;
         top: 85%;
         left: 70%;
-        /* z-index: 10; */
     }
 }
 
@@ -675,7 +733,6 @@ img[src="img/fromage.png"] {
         margin-bottom: 10px;
     }
     #sandwich .container #sandwich-img .petit-boite h2 {
-        color: #dfc691;
         font-size: 18px;
     }
     #breakfast {
@@ -694,6 +751,16 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 118px;
     }
+    #sandwich #sandwich-img .prep p:first-child {
+        font-size: 18px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(3) {
+        font-size: 18px;
+    }
     #sandwich #sandwich-img .cook {
         position: absolute;
         top: 127px;
@@ -701,12 +768,31 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 118px;
     }
+    #sandwich #sandwich-img .cook p:first-child {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(3) {
+        font-size: 18px;
+    }
     #sandwich #sandwich-img .ready {
         position: absolute;
         top: 243px;
         right: 40px;
         width: 165px;
         height: 118px;
+    }
+    #sandwich #sandwich-img .ready p:first-child {
+        font-size: 18px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(2) {
+        font-size: 18px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(3) {
+        font-size: 18px;
     }
 }
 
@@ -725,11 +811,9 @@ img[src="img/fromage.png"] {
         width: 10em;
     }
     #sandwich .container #sandwich-img .petit-boite h2 {
-        color: #dfc691;
         font-size: 15px;
     }
     #buttonOurMenu {
-        background-color: #56534c;
         border-radius: 0;
         border: 2px dotted white;
         padding: 8px 45px;
@@ -741,6 +825,16 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 118px;
     }
+    #sandwich #sandwich-img .prep p:first-child {
+        font-size: 15px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(2) {
+        font-size: 15px;
+    }
+    #sandwich #sandwich-img .prep p:nth-child(3) {
+        font-size: 15px;
+    }
     #sandwich #sandwich-img .cook {
         position: absolute;
         top: 127px;
@@ -748,12 +842,31 @@ img[src="img/fromage.png"] {
         width: 165px;
         height: 118px;
     }
+    #sandwich #sandwich-img .cook p:first-child {
+        font-size: 15px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(2) {
+        font-size: 15px;
+    }
+    #sandwich #sandwich-img .cook p:nth-child(3) {
+        font-size: 15px;
+    }
     #sandwich #sandwich-img .ready {
         position: absolute;
         top: 229px;
         right: 40px;
         width: 165px;
         height: 118px;
+    }
+    #sandwich #sandwich-img .ready p:first-child {
+        font-size: 15px;
+        margin-top: 11px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(2) {
+        font-size: 15px;
+    }
+    #sandwich #sandwich-img .ready p:nth-child(3) {
+        font-size: 15px;
     }
 }
 
@@ -788,7 +901,6 @@ img[src="img/fromage.png"] {
         word-spacing: 17ch;
         font-size: 12px;
         text-transform: uppercase;
-        color: #56534c;
         margin-top: 25px;
     }
     #breakfast .stacked_3 h1 {
@@ -807,7 +919,6 @@ img[src="img/fromage.png"] {
         position: absolute;
         top: 86%;
         left: 77%
-        /* z-index: 10; */
     }
     #art-of-cakes p span {
         display: none;
@@ -819,11 +930,9 @@ img[src="img/fromage.png"] {
         width: 8em;
     }
     #sandwich .container #sandwich-img .petit-boite h2 {
-        color: #dfc691;
         font-size: 13px;
     }
     #buttonOurMenu {
-        background-color: #56534c;
         border-radius: 0;
         border: 2px dotted white;
         padding: 8px 45px;
@@ -836,16 +945,13 @@ img[src="img/fromage.png"] {
         height: 75px;
     }
     #sandwich #sandwich-img .prep p:first-child {
-        font-size: 16px;
-        font-weight: bold;
+        font-size: 10px;
+        margin-top: 11px;
     }
     #sandwich #sandwich-img .prep p:nth-child(2) {
-        color: #56534c;
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 10px;
     }
     #sandwich #sandwich-img .prep p:nth-child(3) {
-        color: #979285;
         font-weight: bold;
     }
     #sandwich #sandwich-img .cook {
@@ -856,17 +962,13 @@ img[src="img/fromage.png"] {
         height: 75px;
     }
     #sandwich #sandwich-img .cook p:first-child {
-        color: #a47d5e;
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 10px;
+        margin-top: 11px;
     }
     #sandwich #sandwich-img .cook p:nth-child(2) {
-        color: #56534c;
-        font-size: 19px;
-        font-weight: bold;
+        font-size: 10px;
     }
     #sandwich #sandwich-img .cook p:nth-child(3) {
-        color: #979285;
         font-weight: bold;
     }
     #sandwich #sandwich-img .ready {
@@ -877,17 +979,13 @@ img[src="img/fromage.png"] {
         height: 75px;
     }
     #sandwich #sandwich-img .ready p:first-child {
-        color: #a47d5e;
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 10px;
+        margin-top: 11px;
     }
     #sandwich #sandwich-img .ready p:nth-child(2) {
-        color: #56534c;
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 10px;
     }
     #sandwich #sandwich-img .ready p:nth-child(3) {
-        color: #979285;
         font-weight: bold;
     }
 }
