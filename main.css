@@ -54,6 +54,12 @@ body {
 
 #header ul li a {
     color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#header ul li a:hover {
+    background-color: rgb(58, 52, 52);
 }
 
 #header #radius-bg {
@@ -196,7 +202,7 @@ body {
     overflow: hidden;
     width: 400px;
     margin: 50px auto;
-    margin-top: 120px;
+    margin-top: 70px;
 }
 
 #tasty-pancake .animation {
@@ -501,8 +507,10 @@ img[src="img/fromage.png"] {
     padding-top: 150px;
 }
 
-#footer a {
-    color: #56534c;
+footer .menu li a {
+    color: #b1aca1;
+    padding: 40px;
+    text-decoration: none;
 }
 
 
@@ -588,6 +596,9 @@ img[src="img/fromage.png"] {
     }
     #sandwich #sandwich-img .ready p:nth-child(3) {
         font-size: 24px;
+    }
+    footer .menu li a {
+        padding: 30px;
     }
 }
 
@@ -713,6 +724,9 @@ img[src="img/fromage.png"] {
         top: 85%;
         left: 70%;
     }
+    footer .menu li a {
+        padding: 14px;
+    }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -794,6 +808,20 @@ img[src="img/fromage.png"] {
     #sandwich #sandwich-img .ready p:nth-child(3) {
         font-size: 18px;
     }
+    #footer #logo>img {
+        margin: 40px auto;
+    }
+    /* #footer #premier-cote {
+        display: flex;
+        align-items: stretch;
+    }
+    #footer #deuxieme-cote {
+        display: flex;
+        align-items: stretch;
+    } */
+    /* #footer a {
+        padding: 78px;
+    } */
 }
 
 @media screen and (max-width: 575.98px) {
@@ -868,9 +896,15 @@ img[src="img/fromage.png"] {
     #sandwich #sandwich-img .ready p:nth-child(3) {
         font-size: 15px;
     }
+    /* #footer a {
+        padding: 50px;
+    } */
 }
 
 @media screen and (max-width: 479.98px) {
+    #tasty-pancake .animation {
+        margin-top: 5px;
+    }
     #breakfast .stacked {
         width: 255px;
         height: 290px;
