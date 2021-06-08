@@ -20,6 +20,7 @@ body {
     font-size: 13px;
     text-align: center;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -60,6 +61,12 @@ body {
 
 #header ul li a:hover {
     background-color: rgb(58, 52, 52);
+}
+
+#header #navbar .navbar-nav span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #header #radius-bg {
@@ -523,6 +530,7 @@ footer .menu li a {
 footer .menu li a:hover {
     background-color: rgb(209, 121, 121);
 }
+
 
 /* --------------------------------------------------------------- */
 
