@@ -174,7 +174,7 @@ body {
 /* --------------------------------------------------------------- */
 
 /*
-/* Section_3
+/* Section_3 Tasty Pancakes
 /*
 /* --------------------------------------------------------------- */
 
@@ -182,6 +182,7 @@ body {
   background-image: url("img/ingredients.png");
   background-size: cover;
   background-position: center;
+  animation-duration: 1s;
 }
 
 #section_3 .text-color-brown {

@@ -44,3 +44,4 @@ function initSmoothScrolling(container, animation) {
         $(this).addClass(cl);
     });
 }
+
