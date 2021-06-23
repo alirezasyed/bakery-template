@@ -243,7 +243,7 @@ body {
 /* --------------------------------------------------------------- */
 
 /*
-/* Section_4
+/* Section_4  breakfast
 /*
 /* --------------------------------------------------------------- */
 
@@ -396,6 +396,7 @@ img[src="img/fromage.png"] {
 #sandwich .container #sandwich-img .petit-boite {
   position: absolute;
   bottom: 18%;
+  left: 0;
   z-index: 50;
   width: 212px;
   height: 68px;
@@ -412,8 +413,8 @@ img[src="img/fromage.png"] {
 
 #sandwich #sandwich-img .prep {
   position: absolute;
-  top: 7px;
-  right: 40px;
+  top: -470px;
+  left: 540px;
   width: 172px;
   height: 170px;
   background-color: #ffffff;
@@ -442,8 +443,8 @@ img[src="img/fromage.png"] {
 
 #sandwich #sandwich-img .cook {
   position: absolute;
-  top: 177px;
-  right: 40px;
+  top: -299px;
+  left: 540px;
   width: 172px;
   height: 170px;
   z-index: 50;
@@ -477,8 +478,8 @@ img[src="img/fromage.png"] {
   background-position: center;
   background-position-y: 1.5rem;
   position: absolute;
-  top: 346px;
-  right: 40px;
+  top: -129px;
+  left: 540px;
   width: 172px;
   height: 170px;
   background-color: #ffffff;
@@ -540,7 +541,7 @@ footer .menu li a:hover {
 /*
 /* --------------------------------------------------------------- */
 
-@media screen and (max-width: 1199.98px) /* */ {
+@media screen and (max-width: 1199.98px) {
   #header #radius-bg {
     width: 60%;
     height: 84%;
